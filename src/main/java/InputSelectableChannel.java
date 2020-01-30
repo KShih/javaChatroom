@@ -1,3 +1,5 @@
+package edu.nyu.cs9053.homework11;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,6 +10,11 @@ import java.nio.channels.ReadableByteChannel;
 import java.nio.channels.SelectableChannel;
 import java.nio.channels.WritableByteChannel;
 
+/**
+ * User: blangel
+ * Date: 11/23/14
+ * Time: 4:52 PM
+ */
 public class InputSelectableChannel {
 
     private static class ChannelThread extends Thread {
